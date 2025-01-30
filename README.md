@@ -19,7 +19,8 @@ ADO.NET (for database connectivity)
 SQL Server (with stored procedures)
 Entity Framework Core (DbContext)
 Swagger UI (for API testing)
----==========================================================
+
+
 📂 Project Structure
 CRUD-ADO.NET-API/
 │── Controllers/
@@ -52,7 +53,8 @@ CRUD-ADO.NET-API/
 │── Program.cs
 │── appsettings.json
 │── README.md
---============================================================
+
+
 2️⃣ Setup SQL Server Database
 Create a SQL Server Database (e.g., CrudADODB)
 Execute the StoredProcedures.sql file to create tables and stored procedures.
@@ -65,7 +67,8 @@ Update the connection string in appsettings.json.
 
 3️⃣ Run the Application
 dotnet run
---==============================================================
+
+
 📌 API Endpoints
 🔹 Create a New Student (POST)
 POST /api/student
@@ -93,7 +96,8 @@ Request Body:
 
 🔹 Delete Student (DELETE)
 DELETE /api/student/{id}
---=================================================================
+
+
 --creating database for CRUD APP
 CREATE DATABASE CrudADOdb;
 use CrudADOdb;
@@ -108,7 +112,7 @@ CREATE TABLE Employees
 	City VARCHAR(50) NOT NULL
 );
 
---===================================
+
 📊 Database: Stored Procedures
 CREATE PROCEDURE GetAllStudents
 AS
@@ -189,12 +193,13 @@ BEGIN
 	ORDER BY Id
 END
 
---=====================================================================
+
 📌 Frontend Functionality 
 Display a table with student/employee records.
 Edit button: Opens a form to update details.
 Delete button: Removes a record.
 Add new button: Opens a form to add a new student.
+
 --=======================================================================
 
 ![image](https://github.com/user-attachments/assets/042cf201-6141-4dde-886b-f0eea9e126c9)
