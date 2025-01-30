@@ -52,7 +52,6 @@ CRUD-ADO.NET-API/
 │── Program.cs
 │── appsettings.json
 │── README.md
-![image](https://github.com/user-attachments/assets/042cf201-6141-4dde-886b-f0eea9e126c9)
 --============================================================================================================================================================
 
 2️⃣ Setup SQL Server Database
@@ -197,3 +196,6 @@ Display a table with student/employee records.
 Edit button: Opens a form to update details.
 Delete button: Removes a record.
 Add new button: Opens a form to add a new student.
+--============================================================================================================================
+
+![image](https://github.com/user-attachments/assets/042cf201-6141-4dde-886b-f0eea9e126c9)
